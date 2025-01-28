@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#ffffff"/>
+  
+  <!-- Left Plot: Scatter Plot -->
+  <g transform="translate(50, 50)">
+    <!-- Axes -->
+    <line x1="0" y1="300" x2="300" y2="300" stroke="black" stroke-width="2"/>
+    <line x1="0" y1="300" x2="0" y2="0" stroke="black" stroke-width="2"/>
+    
+    <!-- Scatter Points -->
+    <circle cx="50" cy="250" r="3" fill="purple" opacity="0.6"/>
+    <circle cx="80" cy="220" r="3" fill="purple" opacity="0.6"/>
+    <circle cx="120" cy="180" r="3" fill="purple" opacity="0.6"/>
+    <circle cx="150" cy="160" r="3" fill="purple" opacity="0.6"/>
+    <circle cx="200" cy="120" r="3" fill="purple" opacity="0.6"/>
+    <circle cx="220" cy="100" r="3" fill="purple" opacity="0.6"/>
+    <circle cx="250" cy="80" r="3" fill="purple" opacity="0.6"/>
+    
+    <!-- Labels -->
+    <text x="150" y="330" text-anchor="middle" font-size="12">Age (Numeric)</text>
+    <text transform="rotate(-90) translate(-150,-30)" text-anchor="middle" font-size="12">Yearly Compensation</text>
+    <text x="150" y="-20" text-anchor="middle" font-size="14" font-weight="bold">Age vs Yearly Compensation</text>
+  </g>
+  
+  <!-- Right Plot: Bubble Plot -->
+  <g transform="translate(450, 50)">
+    <!-- Axes -->
+    <line x1="0" y1="300" x2="300" y2="300" stroke="black" stroke-width="2"/>
+    <line x1="0" y1="300" x2="0" y2="0" stroke="black" stroke-width="2"/>
+    
+    <!-- Grid Lines -->
+    <g stroke="#ededed" stroke-width="1">
+      <line x1="0" y1="250" x2="300" y2="250"/>
+      <line x1="0" y1="200" x2="300" y2="200"/>
+      <line x1="0" y1="150" x2="300" y2="150"/>
+      <line x1="0" y1="100" x2="300" y2="100"/>
+      <line x1="0" y1="50" x2="300" y2="50"/>
+      <line x1="50" y1="0" x2="50" y2="300"/>
+      <line x1="100" y1="0" x2="100" y2="300"/>
+      <line x1="150" y1="0" x2="150" y2="300"/>
+      <line x1="200" y1="0" x2="200" y2="300"/>
+      <line x1="250" y1="0" x2="250" y2="300"/>
+    </g>
+    
+    <!-- Bubble Points -->
+    <circle cx="80" cy="220" r="15" fill="orange" opacity="0.5" stroke="white" stroke-width="1"/>
+    <circle cx="120" cy="180" r="20" fill="orange" opacity="0.5" stroke="white" stroke-width="1"/>
+    <circle cx="160" cy="150" r="25" fill="orange" opacity="0.5" stroke="white" stroke-width="1"/>
+    <circle cx="200" cy="120" r="30" fill="orange" opacity="0.5" stroke="white" stroke-width="1"/>
+    <circle cx="240" cy="90" r="35" fill="orange" opacity="0.5" stroke="white" stroke-width="1"/>
+    
+    <!-- Labels -->
+    <text x="150" y="330" text-anchor="middle" font-size="12">Yearly Compensation</text>
+    <text transform="rotate(-90) translate(-150,-30)" text-anchor="middle" font-size="12">Job Satisfaction Points</text>
+    <text x="150" y="-20" text-anchor="middle" font-size="14" font-weight="bold">Compensation vs Job Satisfaction</text>
+  </g>
+</svg>

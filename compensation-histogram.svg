@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <!-- Background -->
+    <rect width="800" height="600" fill="white"/>
+    
+    <!-- Title -->
+    <text x="400" y="40" text-anchor="middle" font-size="20" font-weight="bold">
+        Histogram of Yearly Compensation (ConvertedCompYearly)
+    </text>
+    
+    <!-- Y-axis -->
+    <line x1="60" y1="500" x2="60" y2="50" stroke="black" stroke-width="2"/>
+    <text x="35" y="275" transform="rotate(-90, 35, 275)" text-anchor="middle" font-size="14">Frequency</text>
+    
+    <!-- X-axis -->
+    <line x1="60" y1="500" x2="750" y2="500" stroke="black" stroke-width="2"/>
+    <text x="405" y="550" text-anchor="middle" font-size="14">Yearly Compensation</text>
+    
+    <!-- Histogram bars -->
+    <g fill="rgba(0,0,255,0.7)">
+        <rect x="60" y="450" width="23" height="50"/>
+        <rect x="83" y="400" width="23" height="100"/>
+        <rect x="106" y="350" width="23" height="150"/>
+        <rect x="129" y="300" width="23" height="200"/>
+        <rect x="152" y="250" width="23" height="250"/>
+        <rect x="175" y="200" width="23" height="300"/>
+        <rect x="198" y="150" width="23" height="350"/>
+        <rect x="221" y="100" width="23" height="400"/>
+        <rect x="244" y="150" width="23" height="350"/>
+        <rect x="267" y="200" width="23" height="300"/>
+        <rect x="290" y="250" width="23" height="250"/>
+        <rect x="313" y="300" width="23" height="200"/>
+        <rect x="336" y="350" width="23" height="150"/>
+        <rect x="359" y="400" width="23" height="100"/>
+        <rect x="382" y="450" width="23" height="50"/>
+    </g>
+    
+    <!-- Grid lines -->
+    <g stroke="rgba(128,128,128,0.2)" stroke-width="1">
+        <line x1="60" y1="450" x2="750" y2="450"/>
+        <line x1="60" y1="400" x2="750" y2="400"/>
+        <line x1="60" y1="350" x2="750" y2="350"/>
+        <line x1="60" y1="300" x2="750" y2="300"/>
+        <line x1="60" y1="250" x2="750" y2="250"/>
+        <line x1="60" y1="200" x2="750" y2="200"/>
+        <line x1="60" y1="150" x2="750" y2="150"/>
+        <line x1="60" y1="100" x2="750" y2="100"/>
+    </g>
+</svg>

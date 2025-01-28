@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <!-- Background -->
+    <rect width="800" height="600" fill="white"/>
+    
+    <!-- Title -->
+    <text x="400" y="40" text-anchor="middle" font-size="20" font-weight="bold">
+        Box Plot of Yearly Compensation by Age Group
+    </text>
+    
+    <!-- Y-axis -->
+    <line x1="60" y1="500" x2="60" y2="50" stroke="black" stroke-width="2"/>
+    <text x="35" y="275" transform="rotate(-90, 35, 275)" text-anchor="middle" font-size="14">Yearly Compensation</text>
+    
+    <!-- X-axis -->
+    <line x1="60" y1="500" x2="750" y2="500" stroke="black" stroke-width="2"/>
+    <text x="405" y="550" text-anchor="middle" font-size="14">Age Group</text>
+    
+    <!-- Box plots -->
+    <g fill="none" stroke="blue">
+        <!-- Age group 1 -->
+        <line x1="150" y1="300" x2="150" y2="400" stroke-width="1"/> <!-- Whisker -->
+        <rect x="125" y="350" width="50" height="100" fill="white" stroke-width="2"/> <!-- Box -->
+        <line x1="125" y1="400" x2="175" y2="400" stroke-width="2"/> <!-- Median -->
+        <line x1="150" y1="200" x2="150" y2="300" stroke-width="1"/> <!-- Whisker -->
+        
+        <!-- Age group 2 -->
+        <line x1="300" y1="250" x2="300" y2="350" stroke-width="1"/>
+        <rect x="275" y="300" width="50" height="100" fill="white" stroke-width="2"/>
+        <line x1="275" y1="350" x2="325" y2="350" stroke-width="2"/>
+        <line x1="300" y1="150" x2="300" y2="250" stroke-width="1"/>
+        
+        <!-- Age group 3 -->
+        <line x1="450" y1="200" x2="450" y2="300" stroke-width="1"/>
+        <rect x="425" y="250" width="50" height="100" fill="white" stroke-width="2"/>
+        <line x1="425" y1="300" x2="475" y2="300" stroke-width="2"/>
+        <line x1="450" y1="100" x2="450" y2="200" stroke-width="1"/>
+        
+        <!-- Age group 4 -->
+        <line x1="600" y1="150" x2="600" y2="250" stroke-width="1"/>
+        <rect x="575" y="200" width="50" height="100" fill="white" stroke-width="2"/>
+        <line x1="575" y1="250" x2="625" y2="250" stroke-width="2"/>
+        <line x1="600" y1="50" x2="600" y2="150" stroke-width="1"/>
+    </g>
+    
+    <!-- Grid lines -->
+    <g stroke="rgba(128,128,128,0.2)" stroke-width="1">
+        <line x1="60" y1="450" x2="750" y2="450"/>
+        <line x1="60" y1="400" x2="750" y2="400"/>
+        <line x1="60" y1="350" x2="750" y2="350"/>
+        <line x1="60" y1="300" x2="750" y2="300"/>
+        <line x1="60" y1="250" x2="750" y2="250"/>
+        <line x1="60" y1="200" x2="750" y2="200"/>
+        <line x1="60" y1="150" x2="750" y2="150"/>
+        <line x1="60" y1="100" x2="750" y2="100"/>
+    </g>
+    
+    <!-- Age group labels -->
+    <g font-size="12" text-anchor="middle">
+        <text x="150" y="520">18-24</text>
+        <text x="300" y="520">25-34</text>
+        <text x="450" y="520">35-44</text>
+        <text x="600" y="520">45-54</text>
+    </g>
+</svg>

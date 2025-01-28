@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- First Chart: Median Compensation by Age -->
+  <g transform="translate(50, 20)">
+    <!-- Title -->
+    <text x="150" y="20" font-size="16" font-weight="bold">Median Converted Compensation Yearly by Age Group</text>
+    
+    <!-- Y-axis -->
+    <line x1="50" y1="50" x2="50" y2="250" stroke="black" />
+    <text x="10" y="60" font-size="12">$150K</text>
+    <text x="10" y="120" font-size="12">$100K</text>
+    <text x="10" y="180" font-size="12">$50K</text>
+    <text x="10" y="240" font-size="12">$0K</text>
+    
+    <!-- X-axis -->
+    <line x1="50" y1="250" x2="350" y2="250" stroke="black" />
+    
+    <!-- Bars using viridis-like colors -->
+    <rect x="70" y="150" width="30" height="100" fill="#440154"/>
+    <rect x="120" y="100" width="30" height="150" fill="#3B528B"/>
+    <rect x="170" y="80" width="30" height="170" fill="#21908C"/>
+    <rect x="220" y="90" width="30" height="160" fill="#5DC963"/>
+    <rect x="270" y="120" width="30" height="130" fill="#FDE725"/>
+    
+    <!-- X-axis labels -->
+    <text x="75" y="270" font-size="12" transform="rotate(45, 75, 270)">18-24</text>
+    <text x="125" y="270" font-size="12" transform="rotate(45, 125, 270)">25-34</text>
+    <text x="175" y="270" font-size="12" transform="rotate(45, 175, 270)">35-44</text>
+    <text x="225" y="270" font-size="12" transform="rotate(45, 225, 270)">45-54</text>
+    <text x="275" y="270" font-size="12" transform="rotate(45, 275, 270)">55+</text>
+  </g>
+
+  <!-- Second Chart: Top Countries -->
+  <g transform="translate(50, 320)">
+    <!-- Title -->
+    <text x="150" y="20" font-size="16" font-weight="bold">Top 20 Countries by Respondent Count</text>
+    
+    <!-- Bars using magma-like colors -->
+    <g>
+      <!-- Sample data for top 5 countries -->
+      <rect x="100" y="40" width="200" height="20" fill="#FB8861"/>
+      <rect x="100" y="70" width="160" height="20" fill="#E76254"/>
+      <rect x="100" y="100" width="140" height="20" fill="#CA3F5D"/>
+      <rect x="100" y="130" width="120" height="20" fill="#A02C5D"/>
+      <rect x="100" y="160" width="100" height="20" fill="#731963"/>
+      
+      <!-- Country labels -->
+      <text x="90" y="55" font-size="12" text-anchor="end">United States</text>
+      <text x="90" y="85" font-size="12" text-anchor="end">India</text>
+      <text x="90" y="115" font-size="12" text-anchor="end">Germany</text>
+      <text x="90" y="145" font-size="12" text-anchor="end">UK</text>
+      <text x="90" y="175" font-size="12" text-anchor="end">Canada</text>
+      
+      <!-- Count labels -->
+      <text x="310" y="55" font-size="12">15,000</text>
+      <text x="270" y="85" font-size="12">12,000</text>
+      <text x="250" y="115" font-size="12">10,000</text>
+      <text x="230" y="145" font-size="12">8,000</text>
+      <text x="210" y="175" font-size="12">6,000</text>
+    </g>
+  </g>
+</svg>
